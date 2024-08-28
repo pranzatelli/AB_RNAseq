@@ -14,29 +14,30 @@ files <- sort(Sys.glob(c('/data/ChioriniCompCor/Pipeline/RNA/CHM13/Output/BRA*/q
 filenames <- sort(unlist(lapply(Sys.glob(c('/data/ChioriniCompCor/Pipeline/RNA/CHM13/Output/BRA*','/data/ChioriniCompCor/Pipeline/RNA/CHM13/Output/MSG_*')), basename)))
 names(files) <- filenames
 metadata = read.table('meta.csv',sep=',',header=TRUE,row.names='X')
-filenames = intersect(filenames,rownames(metadata))
-files <- files[filenames]
-metadata = metadata[filenames,]
+files <- files[rownames(metadata)]
 sampleTable = data.frame(disease = factor(metadata$SjD.Diagnosis),
 	ssa = factor(metadata$SSA), ssb = factor(metadata$SSB),
-	ana = factor(metadata$ANA), rf = factor(metadata$RF))
+	ana = factor(metadata$ANA), rf = factor(metadata$RF),
+	cohort = factor(metadata$Cohort))
 
 txi <- tximport(files,type='salmon',tx2gene=tx2gene)
 txi.tx <- tximport(files,type='salmon',txOut=TRUE)
-write.csv(txi$counts,file='all_gene.csv')
-write.csv(txi.tx$counts,file='all_transcript.csv')
+txi_adj <- sva::ComBat_seq(txi$counts,batch=sampleTable$cohort,group=sampleTable$disease)
+txi.tx_adj <- sva::ComBat_seq(txi.tx$counts,batch=sampleTable$cohort,group=sampleTable$disease)
+write.csv(txi_adj,file='all_gene.csv')
+write.csv(txi.tx_adj,file='all_transcript.csv')
 
 library(DESeq2)
 for(catvar in colnames(sampleTable)){
 	files_nona = files[sampleTable[catvar] != '']
 	sampleTable_nona = sampleTable[sampleTable[catvar] != '',]
 	txi <- tximport(files_nona,type='salmon',tx2gene=tx2gene)
-	dds <- DESeqDataSetFromTximport(txi,sampleTable_nona,as.formula(paste('~',catvar)))
+	dds <- DESeqDataSetFromTximport(txi,sampleTable_nona,as.formula(paste('~cohort+',catvar)))
 	dds <- DESeq(dds)
 	res <- results(dds,alpha=0.05)
 	write.csv(as.data.frame(res[order(res$padj),]),file=paste('de/gene.',catvar,'.csv',sep=''))
 	txi.tx <- tximport(files_nona,type='salmon',txOut=TRUE)
-	dds <- DESeqDataSetFromTximport(txi.tx,sampleTable_nona,as.formula(paste('~',catvar)))
+	dds <- DESeqDataSetFromTximport(txi.tx,sampleTable_nona,as.formula(paste('~cohort+',catvar)))
 	dds <- DESeq(dds)
 	res <- results(dds,alpha=0.05)
 	write.csv(as.data.frame(res[order(res$padj),]),file=paste('de/tx.',catvar,'.csv',sep=''))
