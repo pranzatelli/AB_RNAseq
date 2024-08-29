@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 641 735">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: beige;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 4;
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #3cb371;
+      }
+
+      .cls-2 {
+        fill: #8470ff;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #8470ff;
+      }
+
+      .cls-3 {
+        fill: plum;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #000;
+        font-family: Times-Roman, Times;
+        font-size: 14px;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="node1">
+    <path class="cls-3" d="M523.7,689.3h-158.3c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h158.3c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(408 705.9)"><tspan x="0" y="0">GO:0050863</tspan></text>
+    <text class="cls-5" transform="translate(361.7 722.7)"><tspan x="0" y="0">regulation of T cell activation</tspan></text>
+  </g>
+  <g id="node2">
+    <path class="cls-3" d="M239.5,594.9H16c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h223.5c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(91.2 611.5)"><tspan x="0" y="0">GO:1903037</tspan></text>
+    <text class="cls-5" transform="translate(12 628.3)"><tspan x="0" y="0">regulation of leukocyte cell-cell adhesion</tspan></text>
+  </g>
+  <g id="node3">
+    <path class="cls-3" d="M210.6,500.6H44.9c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h165.6c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(91.2 517.2)"><tspan x="0" y="0">GO:0022407</tspan></text>
+    <text class="cls-5" transform="translate(40.9 534)"><tspan x="0" y="0">regulation of cell-cell adhesion</tspan></text>
+  </g>
+  <g id="edge1">
+    <path class="cls-4" d="M127.8,553.7v41"/>
+    <polygon class="cls-2" points="124.3 553.9 127.8 543.9 131.3 553.9 124.3 553.9"/>
+    <text class="cls-5" transform="translate(127.8 572.8)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node4">
+    <path class="cls-3" d="M540.6,594.9h-192.1c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h192.1c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(408 611.5)"><tspan x="0" y="0">GO:0051249</tspan></text>
+    <text class="cls-5" transform="translate(344.5 628.3)"><tspan x="0" y="0">regulation of lymphocyte activation</tspan></text>
+  </g>
+  <g id="edge2">
+    <path class="cls-4" d="M444.5,648.1v41"/>
+    <polygon class="cls-2" points="441 648.3 444.5 638.3 448 648.3 441 648.3"/>
+    <text class="cls-5" transform="translate(444.5 667.1)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node5">
+    <path class="cls-3" d="M534.8,500.6h-180.4c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h180.4c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(408 517.2)"><tspan x="0" y="0">GO:0002694</tspan></text>
+    <text class="cls-5" transform="translate(350.3 534)"><tspan x="0" y="0">regulation of leukocyte activation</tspan></text>
+  </g>
+  <g id="edge3">
+    <path class="cls-4" d="M444.5,553.7v41"/>
+    <polygon class="cls-2" points="441 553.9 444.5 543.9 448 553.9 441 553.9"/>
+    <text class="cls-5" transform="translate(444.5 572.8)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node6">
+    <path class="cls-3" d="M445.7,406.3h-146.2c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h146.2c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(336.1 422.9)"><tspan x="0" y="0">GO:0050865</tspan></text>
+    <text class="cls-5" transform="translate(295.5 439.7)"><tspan x="0" y="0">regulation of cell activation</tspan></text>
+  </g>
+  <g id="edge4">
+    <path class="cls-4" d="M395.1,456.9c11,14.1,24,30.8,33.9,43.5"/>
+    <polygon class="cls-2" points="392.5 459.3 389.1 449.3 398 455 392.5 459.3"/>
+    <text class="cls-5" transform="translate(415 478.4)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node7">
+    <path class="cls-1" d="M198.2,406.3H57.4c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h140.8c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(91.2 422.9)"><tspan x="0" y="0">GO:0030155</tspan></text>
+    <text class="cls-5" transform="translate(53.4 439.7)"><tspan x="0" y="0">regulation of cell adhesion</tspan></text>
+  </g>
+  <g id="edge5">
+    <path class="cls-4" d="M127.8,459.4v41"/>
+    <polygon class="cls-2" points="124.3 459.6 127.8 449.6 131.3 459.6 124.3 459.6"/>
+    <text class="cls-5" transform="translate(127.8 478.4)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node8">
+    <path class="cls-1" d="M205.1,287.2H50.4c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h154.8c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(91.2 303.7)"><tspan x="0" y="0">GO:0050794</tspan></text>
+    <text class="cls-5" transform="translate(46.4 320.5)"><tspan x="0" y="0">regulation of cellular process</tspan></text>
+  </g>
+  <g id="edge6">
+    <path class="cls-4" d="M180.2,334c44.8,21.4,108.5,51.9,150.1,71.8"/>
+    <polygon class="cls-2" points="179 337.3 171.5 329.9 182 331 179 337.3"/>
+    <text class="cls-5" transform="translate(293.4 371.7)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="edge7">
+    <path class="cls-4" d="M127.8,340.5v65.3"/>
+    <polygon class="cls-2" points="124.3 340.6 127.8 330.6 131.3 340.6 124.3 340.6"/>
+    <text class="cls-5" transform="translate(127.8 371.7)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node9">
+    <path class="cls-1" d="M457,192.8h-168.8c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h168.8c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(336.1 209.4)"><tspan x="0" y="0">GO:0050789</tspan></text>
+    <text class="cls-5" transform="translate(284.2 226.2)"><tspan x="0" y="0">regulation of biological process</tspan></text>
+  </g>
+  <g id="edge8">
+    <path class="cls-4" d="M308.3,238.9c-39.5,14.9-89.5,33.8-126.9,47.9"/>
+    <polygon class="cls-2" points="306.9 235.7 317.4 235.4 309.3 242.2 306.9 235.7"/>
+    <text class="cls-5" transform="translate(272.1 265)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node10">
+    <path class="cls-1" d="M497.6,287.2h-250c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h250c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(336.1 303.7)"><tspan x="0" y="0">GO:0051239</tspan></text>
+    <text class="cls-5" transform="translate(243.7 320.5)"><tspan x="0" y="0">regulation of multicellular organismal process</tspan></text>
+  </g>
+  <g id="edge9">
+    <path class="cls-4" d="M372.6,245.9v41"/>
+    <polygon class="cls-2" points="369.1 246.1 372.6 236.1 376.1 246.1 369.1 246.1"/>
+    <text class="cls-5" transform="translate(372.6 265)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node11">
+    <path class="cls-1" d="M625,346.7h-201c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h201c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(488 363.3)"><tspan x="0" y="0">GO:0002682</tspan></text>
+    <text class="cls-5" transform="translate(420 380.1)"><tspan x="0" y="0">regulation of immune system process</tspan></text>
+  </g>
+  <g id="edge10">
+    <path class="cls-4" d="M458,239.4c23.3,10.9,46,26.3,60.5,47.8,11.7,17.4,11.6,42.1,9.6,59.3"/>
+    <polygon class="cls-2" points="456.8 242.7 449.1 235.4 459.6 236.3 456.8 242.7"/>
+    <text class="cls-5" transform="translate(502.3 265)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="edge11">
+    <path class="cls-4" d="M372.6,340.5v65.3"/>
+    <polygon class="cls-2" points="369.1 340.6 372.6 330.6 376.1 340.6 369.1 340.6"/>
+    <text class="cls-5" transform="translate(372.6 371.7)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="edge13">
+    <path class="cls-4" d="M508.6,398.6c-15.8,30.1-39.7,75.5-53.4,101.5"/>
+    <polygon class="cls-2" points="505.4 397.2 513.2 390 511.6 400.5 505.4 397.2"/>
+    <text class="cls-5" transform="translate(504.3 431.3)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node12">
+    <path class="cls-1" d="M426.7,98.5h-108.2c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h108.2c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(336.1 115.1)"><tspan x="0" y="0">GO:0065007</tspan></text>
+    <text class="cls-5" transform="translate(314.5 131.9)"><tspan x="0" y="0">biological regulation</tspan></text>
+  </g>
+  <g id="edge12">
+    <path class="cls-4" d="M372.6,151.6v41"/>
+    <polygon class="cls-2" points="369.1 151.8 372.6 141.8 376.1 151.8 369.1 151.8"/>
+    <text class="cls-5" transform="translate(372.6 170.6)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+  <g id="node13">
+    <path class="cls-1" d="M421,4.1h-96.9c-6,0-12,6-12,12v17.6c0,6,6,12,12,12h96.9c6,0,12-6,12-12v-17.6c0-6-6-12-12-12"/>
+    <text class="cls-5" transform="translate(336.1 20.7)"><tspan x="0" y="0">GO:0008150</tspan></text>
+    <text class="cls-5" transform="translate(320.1 37.5)"><tspan x="0" y="0">biological_process</tspan></text>
+  </g>
+  <g id="edge14">
+    <path class="cls-4" d="M372.6,57.3v41"/>
+    <polygon class="cls-2" points="369.1 57.5 372.6 47.5 376.1 57.5 369.1 57.5"/>
+    <text class="cls-5" transform="translate(372.6 76.3)"><tspan x="0" y="0">is_a</tspan></text>
+  </g>
+</svg>
